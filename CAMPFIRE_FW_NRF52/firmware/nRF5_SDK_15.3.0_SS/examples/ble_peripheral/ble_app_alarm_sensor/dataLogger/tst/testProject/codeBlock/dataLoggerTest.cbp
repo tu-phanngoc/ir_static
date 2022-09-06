@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dataLoggerTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dbMemoryTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dbMemoryTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../../cfg" />
+			<Add directory="../../../include" />
+			<Add directory="../../../portable" />
+			<Add directory="../../../src" />
+			<Add directory="../../testCode/inc" />
+			<Add directory="../../testCode/unity" />
+		</Compiler>
+		<Unit filename="../../../cfg/dataLogger_Config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../cfg/dataLogger_Config.h" />
+		<Unit filename="../../../include/dataLogger_Interface.h" />
+		<Unit filename="../../../portable/bootloader_utils.h" />
+		<Unit filename="../../../portable/dataLogger_UserPort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../portable/dataLogger_UserPort.h" />
+		<Unit filename="../../../portable/external_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../portable/external_flash.h" />
+		<Unit filename="../../../src/dataLogger_Interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testCode/inc/dataLogger_IT.h" />
+		<Unit filename="../../testCode/inc/dataLogger_IT_TC.h" />
+		<Unit filename="../../testCode/inc/dataLogger_UT.h" />
+		<Unit filename="../../testCode/inc/dataLogger_UT_TC.h" />
+		<Unit filename="../../testCode/src/dataLogger_IT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testCode/src/dataLogger_IT_TC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testCode/src/dataLogger_UT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testCode/src/dataLogger_UT_TC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testCode/unity/unity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testCode/unity/unity.h" />
+		<Unit filename="../../testCode/unity/unity_internals.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

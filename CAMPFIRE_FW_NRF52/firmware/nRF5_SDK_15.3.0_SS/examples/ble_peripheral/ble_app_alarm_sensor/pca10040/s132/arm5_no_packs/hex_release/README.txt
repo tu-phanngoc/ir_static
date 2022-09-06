@@ -1,0 +1,1 @@
+just click the file '0_step_2_auto_program-without-lock-chip.bat' to run the programming script

@@ -1,0 +1,37 @@
+IT: 
+(Condition : Data Sector size = 3)(test in 4 case struct : 8, 9, 10, 11)
+
+24- test Save - Get (wraparound*2) (status: ok, verify data)
+25- test Save - Pop : đồng thời (wraparound*2) (status: ok, verify data)
+26- test Save xong (wraparound) - Pop (all data - đã bị erase sector đầu)  (status: ok, verify data)
+
+UT: (test in 4 case struct : 8, 9, 10, 11)
+>Init: (Index use 2 sectors: sector 0 & sector 1)
+1- Init khi chưa có data trong bộ nhớ (status : Ok, head = tail = 0, latestsector = 0, ringIndex = 0)
+2- Init khi sector 0 Có data, sector 1 không có data (status: ok, latestsector = 0, ringIndex = số RingLog đã write)
+3- Init khi sector 0 full, sector 1 chua co data  (status: ok, latestsector = 0, ringIndex = số RingLog đã write)
+4- Init khi sector 0 full, sector 1 có data (status: ok, latestsector = 1, ringIndex = số RingLog đã write)
+5- Init khi sector 1 full, sector 0 chua co data (status: ok, latestsector = 1, ringIndex = số RingLog đã write)
+6- Init khi sector 1 full, sector 0 có data  (status: ok, latestsector = 0, ringIndex = số RingLog đã write)
+7- Init khi RingLog có CRC sai đầu sector (status Ok,  ringIndex = (số RingLog đã write))
+8- Init khi RingLog có CRC sai giữa sector (status Ok, ringIndex = (số RingLog đã write))
+9- Init khi RingLog có CRC sai cuối sector (status Ok; Lấy RingLog trước đó, ringIndex = (số RingLog đã write - 1))
+
+>Write function: 
+(Condition : Data Sector size = 3) (N: số bản tin trên 1 sector)
+10- Write 1 record - success (head++, tail giữ nguyên, cmp data,  status ok)
+11- Write 1 record - fail (head tăng theo số lần retry,  tail giữ nguyên,cmp data fail, status fail)
+12- Write N record full 1 sector - success (head = N+1, tail giữ nguyên, status ok) 
+13- Write 2N record full 2 sector - success (head = 2N+1, tail giữ nguyên, status ok) 
+14- Write 3N record full 3 sector - success (head = 0, tail = N, status ok) (wraparound)
+15- Write 4N record full 3 sector - success (head = N+1, tail = 2N, status ok) (wraparound)
+>Get:
+16- Get khi Empty (status: fail)
+17- Get khi 1 record (status : ok)
+18- Get khi có N records (status : ok) (compare data)
+19- Get khi có N records CRC fail (status : FAIL) (compare data)
+>Pop:
+20- Pop khi Empty (status : fail)
+21- Pop khi có 1 record - Pop 1 time (tail++, status : Ok)
+22- Pop khi có N record - Pop N+1 time (tail==head, status OK (0->N): status: fail (N+1) / (check N time in loop) (check and cmp data)
+23- Pop khi có N record - CRC fail, pop to success (status: ok, tail ++ với số lần fail)

@@ -1,0 +1,130 @@
+Dependencies for Project 'uip-ppp-lib', Target 'uip-pp-lib': (DO NOT MODIFY !)
+F (..\uip\resolv.c)(0x5882595E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\resolv.o --omf_browse .\output\resolv.crf --depend .\output\resolv.d)
+I (..\uip\resolv.h)(0x4F98C5E8)
+I (..\uip\uip.h)(0x55347C5A)
+I (..\uip-ppp-lib\uipopt.h)(0x58824E4C)
+I (..\uip-ppp-lib\uip-conf.h)(0x5539FF1C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\uip\tcpip.h)(0x53DBC7D6)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+F (..\uip\timer.c)(0x536D1B70)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\timer.o --omf_browse .\output\timer.crf --depend .\output\timer.d)
+I (..\PPP\typedef.h)(0x4F98C3FE)
+I (..\uip\timer.h)(0x536D14AA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\..\ampm_lib\lib/tick.h)(0x53A97772)
+I (..\..\ampm_lib\lib/sys_tick.h)(0x584D5872)
+F (..\uip\uip.c)(0x55347C68)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\uip.o --omf_browse .\output\uip.crf --depend .\output\uip.d)
+I (..\uip\uip.h)(0x55347C5A)
+I (..\uip-ppp-lib\uipopt.h)(0x58824E4C)
+I (..\uip-ppp-lib\uip-conf.h)(0x5539FF1C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\uip\uip_arch.h)(0x4F98C5E8)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+F (..\uip\uip_ppp.c)(0x58824E9E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\uip_ppp.o --omf_browse .\output\uip_ppp.crf --depend .\output\uip_ppp.d)
+I (..\uip\uip_ppp.h)(0x53A06224)
+I (..\PPP\ppp.h)(0x55348166)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (..\uip\tcpip.h)(0x53DBC7D6)
+I (..\uip-ppp-lib\uipopt.h)(0x58824E4C)
+I (..\uip-ppp-lib\uip-conf.h)(0x5539FF1C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\uip\uip.h)(0x55347C5A)
+I (..\PPP\typedef.h)(0x4F98C3FE)
+I (..\PPP\fcs.h)(0x4F98C5E8)
+I (..\..\ampm_lib\lib/ringbuf.h)(0x584D5894)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (..\common\comm.h)(0x5897E67E)
+I (..\..\Inc\app_config_task.h)(0x585B7180)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (..\..\ampm_lib\lib/sys_tick.h)(0x584D5872)
+I (..\..\Inc\system_config.h)(0x58933EC8)
+I (..\..\Inc\hw_config.h)(0x585392E0)
+I (..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5839200A)
+I (..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x58539B16)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C05D2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C05D2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C05D2)
+I (..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5839200A)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5839200C)
+I (..\..\Inc\stm32f1xx_hal_conf.h)(0x58500782)
+I (..\..\Inc\mxconstants.h)(0x58500782)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_hcd.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5839200C)
+I (..\uip\timer.h)(0x536D14AA)
+I (..\..\ampm_lib\lib/tick.h)(0x53A97772)
+F (..\PPP\fcs.c)(0x4FA12F5A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\fcs.o --omf_browse .\output\fcs.crf --depend .\output\fcs.d)
+I (..\PPP\fcs.h)(0x4F98C5E8)
+I (..\PPP\typedef.h)(0x4F98C3FE)
+F (..\PPP\ppp.c)(0x585E3A2C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\ppp.o --omf_browse .\output\ppp.crf --depend .\output\ppp.d)
+I (..\PPP\ppp.h)(0x55348166)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (..\uip\tcpip.h)(0x53DBC7D6)
+I (..\uip-ppp-lib\uipopt.h)(0x58824E4C)
+I (..\uip-ppp-lib\uip-conf.h)(0x5539FF1C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\uip\uip.h)(0x55347C5A)
+I (..\PPP\typedef.h)(0x4F98C3FE)
+I (..\PPP\fcs.h)(0x4F98C5E8)
+I (..\..\ampm_lib\lib/ringbuf.h)(0x584D5894)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (..\common\comm.h)(0x5897E67E)
+I (..\..\Inc\app_config_task.h)(0x585B7180)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7D364)
+I (..\..\ampm_lib\lib/sys_tick.h)(0x584D5872)
+I (..\..\Inc\system_config.h)(0x58933EC8)
+I (..\..\Inc\hw_config.h)(0x585392E0)
+I (..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5839200A)
+I (..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x58539B16)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C05D2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C05D2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C05D2)
+I (..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5839200A)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5839200C)
+I (..\..\Inc\stm32f1xx_hal_conf.h)(0x58500782)
+I (..\..\Inc\mxconstants.h)(0x58500782)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_hcd.h)(0x5839200C)
+I (../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5839200C)
+I (..\uip\uip_ppp.h)(0x53A06224)
+I (..\uip\timer.h)(0x536D14AA)
+I (..\..\ampm_lib\lib/tick.h)(0x53A97772)
+F (..\PPP\xtea.c)(0x4FA12F5A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib -I..\common -I..\..\Inc -I..\..\Drivers\CMSIS -I..\..\Drivers/CMSIS/Device/ST/STM32F1xx/Include -I..\..\Src -I../../Drivers/STM32F1xx_HAL_Driver/Inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-DSTM32F105xC-o .\output\xtea.o --omf_browse .\output\xtea.crf --depend .\output\xtea.d)
+I (..\PPP\typedef.h)(0x4F98C3FE)

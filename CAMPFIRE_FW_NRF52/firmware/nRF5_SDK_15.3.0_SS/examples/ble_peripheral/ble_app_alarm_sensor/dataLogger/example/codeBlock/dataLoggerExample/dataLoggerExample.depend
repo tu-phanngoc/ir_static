@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1552836302 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\flash_al\datalogger_userport.c
+	<stdio.h>
+	<string.h>
+	"dataLogger_UserPort.h"
+
+1552836302 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\flash_al\datalogger_userport.h
+	<stdint.h>
+	<stdbool.h>
+	"external_flash.h"
+	"dataLogger_Config.h"
+	"dataLogger_Interface.h"
+
+1552702069 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\cfg\datalogger_config.h
+	<stdint.h>
+
+1552836302 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\inc\datalogger_interface.h
+	<stdint.h>
+	<stdbool.h>
+	"dataLogger_Config.h"
+
+1552836302 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\flash_al\external_flash.c
+	"external_flash.h"
+
+1552836302 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\src\datalogger_interface.c
+	<stdio.h>
+	<string.h>
+	"dataLogger_UserPort.h"
+
+1552836302 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\main.c
+	<stdio.h>
+	<stdlib.h>
+	"external_flash.h"
+
+1552702053 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\tst\comps\unity\unity.h
+	"unity_internals.h"
+
+1552702053 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\tst\comps\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stdint.h>
+	<limits.h>
+	"debug_console.h"
+	<stdio.h>
+	<stdio.h>
+
+1552836302 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\src\testcommon\src\test_common.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"test_common.h"
+
+1552836302 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\src\testcommon\inc\test_common.h
+
+1552836302 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\src\config\datalogger_config.h
+	<stdint.h>
+
+1552836302 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\src\config\datalogger_config.c
+	<stdio.h>
+	"dataLogger_Interface.h"
+	"dataLogger_Config.h"
+
+1552836820 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\src\testmenu\src\test_menu.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"test_menu.h"
+	"test_common.h"
+	"dataLogger_Config.h"
+
+1552836302 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\toolsupport\projects\codeblock\dataloggerexample\src\testmenu\inc\test_menu.h
+
+1552836301 d:\projects\01_escootermodela\04_software\github\vin_sw_share\develop_data_log\comps\datalogger\flash_al\bootloader_utils.h
+	<stdbool.h>
+	<stdint.h>
+
+1552926828 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\portable\datalogger_userport.c
+	<stdio.h>
+	<string.h>
+	"dataLogger_UserPort.h"
+
+1552926828 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\portable\datalogger_userport.h
+	<stdint.h>
+	<stdbool.h>
+	"external_flash.h"
+	"dataLogger_Config.h"
+	"dataLogger_Interface.h"
+
+1552928671 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\portable\external_flash.h
+	<stdbool.h>
+	<stdio.h>
+	<stdint.h>
+
+1552899828 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\portable\bootloader_utils.h
+	<stdbool.h>
+	<stdint.h>
+
+1552928671 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\src\config\datalogger_config.h
+	<stdint.h>
+
+1552926845 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\include\datalogger_interface.h
+	<stdint.h>
+	<stdbool.h>
+	"dataLogger_Config.h"
+
+1552926845 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\src\datalogger_interface.c
+	<stdio.h>
+	<string.h>
+	"dataLogger_UserPort.h"
+
+1552928671 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\main.c
+	<stdio.h>
+	<stdlib.h>
+	"external_flash.h"
+
+1552928671 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\src\config\datalogger_config.c
+	<stdio.h>
+	"dataLogger_Interface.h"
+	"dataLogger_Config.h"
+
+1552928671 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\src\testcommon\src\test_common.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"test_common.h"
+
+1552928671 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\src\testcommon\inc\test_common.h
+
+1552928671 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\src\testmenu\src\test_menu.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"test_menu.h"
+	"test_common.h"
+	"dataLogger_Config.h"
+	"dataLogger_Interface.h"
+
+1552928671 d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\example\codeblock\dataloggerexample\src\testmenu\inc\test_menu.h
+
+1552928671 source:d:\projects\01_escootermodela\04_software\github\vin_sw_share\libraries\datalogger\portable\external_flash.c
+	"external_flash.h"
+
